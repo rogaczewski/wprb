@@ -464,23 +464,23 @@ msgstr "Sprawdź, czy rozszerzenie PHP %s jest zainstalowane i włączone."
 msgid "When using the %1$s constant, make sure to set these globals to an array: %2$s."
 msgstr "Używając tagu %1$s, upewnij się, że te wartości globalne są ustawione na tablicę: %2$s."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:2193
+#: wp-includes/html-api/class-wp-html-tag-processor.php:2169
 msgid "The query argument must be an array or a tag name."
 msgstr "Argument zapytania musi być tablicą lub nazwą tagu."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:1882
+#: wp-includes/html-api/class-wp-html-tag-processor.php:1867
 msgid "Invalid attribute name."
 msgstr "Nieprawidłowa nazwa atrybutu."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:1553
+#: wp-includes/html-api/class-wp-html-tag-processor.php:1540
 msgid "Too many calls to seek() - this can lead to performance issues."
 msgstr "Zbyt wiele wywołań funkcji seek() — może prowadzić do problemów z wydajnością."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:1544
+#: wp-includes/html-api/class-wp-html-tag-processor.php:1531
 msgid "Unknown bookmark name."
 msgstr "Nieznana nazwa zakładki."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:719
+#: wp-includes/html-api/class-wp-html-tag-processor.php:685
 msgid "Too many bookmarks: cannot create any more."
 msgstr "Zbyt wiele zakładek: nie można utworzyć więcej."
 
