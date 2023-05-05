@@ -656,7 +656,7 @@ h2.banner {
     padding: 20px 0 0 0;
 }
 
-footer {
+footer, nav {
     background-color: #333333;
     font-size: 20px;
     color: white;

@@ -34,9 +34,19 @@
 		<?php the_custom_logo(); ?>
 		<div class="logo"><a href="/"><img style="width: 100px; margin: 5px" src="wp-content\uploads\2023\05\logo_rb.png"></a><a style="font-weight: bold; display: block; float: right; margin-top: 81px;" href="https://www.facebook.com/rowerowybialystok/"><i style="font-size: 25px;" class="fa fa fa-facebook-official"></i> /rowerowybialystok</a></div>
 
+		<nav id="site-navigation" class="main-navigation" style="background-color:#333333;">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rb' ); ?></button>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				)
+			);
+			?>
+		</nav><!-- #site-navigation -->
 		<div class="site-branding">
 			<?php
-			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -53,15 +63,4 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation" style="background-color:#333333;">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rb' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
