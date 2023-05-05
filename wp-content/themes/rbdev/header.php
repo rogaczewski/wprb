@@ -31,6 +31,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'rb' ); ?></a>
 
 	<header id="masthead" class="site-header">
+		<?php the_custom_logo(); ?>
 		<div class="logo"><a href="/"><img style="width: 100px; margin: 5px" src="wp-content\uploads\2023\05\logo_rb.png"></a><a style="font-weight: bold; display: block; float: right; margin-top: 81px;" href="https://www.facebook.com/rowerowybialystok/"><i style="font-size: 25px;" class="fa fa fa-facebook-official"></i> /rowerowybialystok</a></div>
 
 		<div class="site-branding">
